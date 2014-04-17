@@ -1,0 +1,7 @@
+String subj = request.getParameter("word");
+        String str;
+        str = new String(subj.getBytes("Cp1251"),"UTF-8");
+
+        String t = request.getCharacterEncoding();
+                request.setCharacterEncoding("Cp1251");
+                String p  = request.getCharacterEncoding();

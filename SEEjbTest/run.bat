@@ -1,0 +1,1 @@
+java -cp C:\Users\Simple\IdeaProjects\SEEjbTest\target\SEEjbTest-1.0-SNAPSHOT.jar SEEjbTest.App

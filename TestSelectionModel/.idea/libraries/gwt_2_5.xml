@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="gwt-2.5">
+    <CLASSES>
+      <root url="file://C:/Program Files/Java/gwt-2.5.1" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://C:/Program Files/Java/gwt-2.5.1/doc/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://C:/Program Files/Java/gwt-2.5.1/samples/DynaTable/src" />
+      <root url="file://C:/Program Files/Java/gwt-2.5.1/samples/DynaTableRf/src/main/java" />
+      <root url="file://C:/Program Files/Java/gwt-2.5.1/samples/Hello/src" />
+      <root url="file://C:/Program Files/Java/gwt-2.5.1/samples/JSON/src" />
+      <root url="file://C:/Program Files/Java/gwt-2.5.1/samples/LogExample/src" />
+      <root url="file://C:/Program Files/Java/gwt-2.5.1/samples/Mail/src" />
+      <root url="file://C:/Program Files/Java/gwt-2.5.1/samples/MobileWebApp/src/main/java" />
+      <root url="file://C:/Program Files/Java/gwt-2.5.1/samples/MobileWebApp/src/test/java" />
+      <root url="file://C:/Program Files/Java/gwt-2.5.1/samples/Showcase/src" />
+      <root url="file://C:/Program Files/Java/gwt-2.5.1/samples/Validation/src/main/java" />
+      <root url="file://C:/Program Files/Java/gwt-2.5.1" />
+    </SOURCES>
+    <jarDirectory url="file://C:/Program Files/Java/gwt-2.5.1" recursive="false" />
+    <jarDirectory url="file://C:/Program Files/Java/gwt-2.5.1" recursive="false" type="SOURCES" />
+  </library>
+</component>
