@@ -9,7 +9,7 @@ import java.util.ArrayList;
 @Stateful(name = "ShoppingCart")
 public class ShoppingCartBean
 {
-  public ArrayList<String> cartItems;
+  private ArrayList<String> cartItems;
 
   public ShoppingCartBean() {
   }
