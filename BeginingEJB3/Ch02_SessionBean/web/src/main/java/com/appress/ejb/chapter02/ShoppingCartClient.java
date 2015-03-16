@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.List;
 
 @WebServlet(name = "ShoppingCartClient", urlPatterns = {"/ShoppingCartClient"})
 public class ShoppingCartClient extends HttpServlet {
@@ -34,8 +33,8 @@ public class ShoppingCartClient extends HttpServlet {
             shoppingCart.addWineItem("Zinfandel");
             out.println("<h1>Printing Cart Items</h1>");
 
-            ArrayList cartItems = shoppingCart.getCartItems();
-            for (String wine: (List<String>)cartItems) {
+            ArrayList<String> cartItems = shoppingCart.getCartItems();
+            for (String wine: cartItems) {
                 out.println("<h1>" + wine + "</h1>");
             }
             

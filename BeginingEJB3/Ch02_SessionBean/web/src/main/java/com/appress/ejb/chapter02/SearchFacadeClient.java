@@ -35,10 +35,10 @@ public class SearchFacadeClient extends HttpServlet {
             out.println("<h1>SearchFacade Lookup</h1>");
             out.println("<h1>Searching wines</h1>");
             
-            List winesList = searchFacade.wineSearch("Red");            
+            List<String> winesList = searchFacade.wineSearch("Red");
             out.println("<h1>Printing wines list</h1>");
 
-            for (String wine:(List<String>)winesList ){
+            for (String wine: winesList){
                 out.println("<h1>" + wine + "</h1>");
             }
 

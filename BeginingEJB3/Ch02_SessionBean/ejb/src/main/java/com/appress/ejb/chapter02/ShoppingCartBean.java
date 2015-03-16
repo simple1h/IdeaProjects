@@ -9,7 +9,7 @@ import java.util.ArrayList;
 @Stateful(name = "ShoppingCart")
 public class ShoppingCartBean
 {
-  public ArrayList cartItems;
+  public ArrayList<String> cartItems;
 
   public ShoppingCartBean() {
   }
@@ -22,17 +22,17 @@ public class ShoppingCartBean
     cartItems.remove(wine);
   }
 
-  public void setCartItems(ArrayList cartItems) {
+  public void setCartItems(ArrayList<String> cartItems) {
     this.cartItems = cartItems;
   }
 
-  public ArrayList getCartItems() {
+  public ArrayList<String> getCartItems() {
     return cartItems;
   }
 
   @PostConstruct
   public void initialize() {
-    cartItems = new ArrayList();
+    cartItems = new ArrayList<String>();
   }
 
   @PreDestroy
