@@ -15,7 +15,7 @@ public class SearchFacadeBean
   public SearchFacadeBean() {
   }
 
-  HashMap<String, String> countryMap = new HashMap<String, String>();
+  private HashMap<String, String> countryMap = new HashMap<String, String>();
 
   public List<String> wineSearch(String wineType) {
     List<String> wineList = new ArrayList<String>();
